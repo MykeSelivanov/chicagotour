@@ -1,14 +1,14 @@
 import './App.css';
-import logo from './logo.svg';
 import Title from './Title';
 import PLACESList from './PLACESList';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-     <Title />
-     <PLACESList />
-     {/* <img src={logo}/> */}
+      <Title />
+      <PLACESList />
+      <Footer />
     </div>
   );
 }

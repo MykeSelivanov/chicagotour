@@ -1,9 +1,10 @@
 import React from 'react';
 import PLACESSpace from './PLACESSpace';
+import './PLACESList.css';
 
 function PLACESList() {
     return (
-        <div>
+        <div className="PLACESList">
             <PLACESSpace
                 name="Willis Tower"
                 address="233 S Wacker Dr, Chicago, IL 60606"
