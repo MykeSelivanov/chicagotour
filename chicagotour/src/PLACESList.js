@@ -5,10 +5,11 @@ import data from './places-data.json';
 
 function PLACESList() {
 
-    const places = data.map((obj) => {
-        const { title, address, images, hours } = obj;
+    const places = data.map(({ title, address, images, hours }, i) => {
+        
         return (
             <PLACESSpace
+                id = {i}
                 key={title}
                 name={title}
                 address={address}
