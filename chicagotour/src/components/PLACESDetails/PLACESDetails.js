@@ -1,4 +1,4 @@
-import data from '../places-data.json';
+import data from '../../places-data.json';
 import React from 'react'
 
 export default function PLACESDetails(props) {
