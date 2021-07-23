@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Title.css';
 
-function Title() {
+export default function Title() {
     return (
         <div className="Title">
             <h1>CHICAGOTOUR</h1>
@@ -22,5 +22,3 @@ function Title() {
         </div>
     )
 }
-
-export default Title;
