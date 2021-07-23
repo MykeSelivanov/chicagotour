@@ -3,7 +3,7 @@ import PLACESSpace from '../PLACESSpace/PLACESSpace';
 import './PLACESList.css';
 import data from '../../places-data.json';
 
-function PLACESList() {
+export default function PLACESList() {
 
     const places = data.map(({ title, address, images, hours }, i) => {
         
@@ -25,5 +25,3 @@ function PLACESList() {
         </div>
     )
 }
-
-export default PLACESList;
