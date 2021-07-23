@@ -1,7 +1,7 @@
 import './PLACESSpace.css';
 import { Link } from 'react-router-dom';
 
-function PLACESSpace(props) {
+export default function PLACESSpace(props) {
     const { name, image, address, hours, id } = props;
     return (
         <div className="PLACESSpace">
@@ -18,5 +18,3 @@ function PLACESSpace(props) {
         </div>
     )
 }
-
-export default PLACESSpace;
