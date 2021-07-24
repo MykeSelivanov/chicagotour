@@ -1,15 +1,48 @@
 .PLACESSpace {
+    position: relative;
     width: 100%;
     text-align: center;
 }
   
 .PLACESSpace img {
-    width: 500px;
-    height: 300px
+    width: 100%;
+    height: 250px;
 }
 
-.hours {
+.PLACESSpace .PLACESSpace-info .hours {
     font-style: italic;
-    font-size: small;
+    font-size: medium;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.PLACESSpace .PLACESSpace-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.PLACESSpace h1 {
+    margin: 0;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.PLACESSpace .PLACESSpace-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+.PLACESSpace .PLACESSpace-info div {
+    display: inline-block;
+    /* width: 90%; */
+    padding: 0.25em 0.5em;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
