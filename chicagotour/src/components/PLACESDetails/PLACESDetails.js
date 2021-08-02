@@ -1,4 +1,4 @@
-import data from '../../places-data.json';
+import data from '../../data/places-data.js';
 import React from 'react';
 import './PLACESDetails.css';
 
