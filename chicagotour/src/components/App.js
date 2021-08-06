@@ -1,5 +1,5 @@
 import './App.css';
-import Title from './Title/Title';
+import Title from './PageHeader/PageHeader';
 import PLACESList from './PLACESList/PLACESList.js';
 import Footer from './Footer';
 import About from './About/About';
