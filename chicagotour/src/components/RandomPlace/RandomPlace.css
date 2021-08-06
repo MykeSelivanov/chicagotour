@@ -1,0 +1,11 @@
+.RandomPlace {
+    background-color: transparent;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.835);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 0.5%;
+}

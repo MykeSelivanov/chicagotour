@@ -1,5 +1,5 @@
 import './App.css';
-import Title from './PageHeader/PageHeader';
+import PageHeader from './PageHeader/PageHeader';
 import PLACESList from './PLACESList/PLACESList.js';
 import Footer from './Footer';
 import About from './About/About';
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Title />
+        <PageHeader />
         <Route exact path="/" component={PLACESList} />
         <Route exact path="/about" component={About} />
         <Route exact path="/details/:id" component={PLACESDetails} />
